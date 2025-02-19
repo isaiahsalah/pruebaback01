@@ -1,6 +1,6 @@
 import dotenv from "dotenv";
 import app from "./app";
-import sequelize from "./config/database";
+import { sequelize } from "./config/database";
 
 dotenv.config();
 
